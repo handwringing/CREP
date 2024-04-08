@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/crep?serverTimezone=UTC&useSSL=false&characterEncoding=utf8
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 7777
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
